@@ -1,6 +1,6 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
-metadeta:
+metadata:
    name: cleanup
 spec:
   workspaces: 
@@ -34,7 +34,7 @@ spec:
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Task
-metadeta:
+metadata:
    name: nose
 spec:
   workspaces: 
